@@ -1,7 +1,6 @@
 import random
 from math import hypot
 
-import self as self
 
 rand_num = random.uniform(-1, 1)
 class Qualean:

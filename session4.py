@@ -54,7 +54,7 @@ class Qualean:
         return (self.in_num != other.in_num) or (self.rand_num != other.rand_num)
 
     def __lt__(self, other):
-        return (self.in_num, self.rand_num) < (other.in_num, other.rand_num)
+        return other.in_num<self.in_num or (other.rand_num != self.rand_num)
 
     def __le__(self, other):
         return (self.in_num) <= (other.rand_num)

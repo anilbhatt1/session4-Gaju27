@@ -98,7 +98,7 @@ def test_less_than_equal():
 def test_less_than():
     q1 = session4.Qualean(1)
     q2 = session4.Qualean(0)
-    assert q1.__lt__(q2)
+    assert q2.__lt__(q1)
 
 
 def test_and_assertion():
